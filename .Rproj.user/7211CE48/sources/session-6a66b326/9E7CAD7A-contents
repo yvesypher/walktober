@@ -1,0 +1,63 @@
+---
+title: ""
+format:
+  closeread-html:
+    remove-header-space: true
+    cr-style:
+      narrative-background-color-overlay: transparent
+      narrative-background-color-sidebar: transparent
+      section-background-color: transparent
+      narrative-text-color-overlay: black
+---
+
+::: {.cr-section layout="overlay-left"}
+
+<span class="intro">This October, NUMBAT presents </span>  @cr-shoenw
+
+@cr-shoe
+
+<span class="intro">16 members of NUMBAT participate in this steps challenge  </span>  @cr-mem
+
+<span class="intro">and form 6 teams </span>  @cr-teamnm
+
+<span class="intro"> First onto the field: <b>Paw Patrol</b> with 4 fearless walkers: Harriet, Jayani, Tina, Maliny</span>  [@cr-teamnm]{pan-to="-40%,-25%" scale-by="1.75"}
+
+<span class="intro"> Not to be outpaced, our gentlemen step in as <b>iwalk_fast()</b> with Vis, Janith, Filip, Floyd</span>  [@cr-teamnm]{pan-to="-20%,-40%" scale-by="1.75"}
+
+<span class="intro"> iwalk_fast() seems strong, so <b>iwalk_faster()</b> is formed by Kate, Cynthia, Nikolas, Hannah to defeat them[@cr-teamnm]{pan-to="0%,20%" scale-by="2"}
+
+<span class="intro"> Outside the Clayton hustle, here comes the <b>Caulfield Ramblers</b> by George, Shanika, Alyssa, Jess[@cr-teamnm]{pan-to="-40%,40%" scale-by="1.75"}
+
+<span class="intro"> From the shadows come the enthusiasts: <b>They who shall not be named</b> with Elio, Kris, Michael, Minh[@cr-teamnm]{pan-to="40%,-20%" scale-by="1.75"}
+
+
+<span class="intro"> And last to arrive but never last to finish - <b>Tardy tracker</b> formed by Di, Naveen, Natalia, Susan [@cr-teamnm]{pan-to="30%,40%" scale-by="1.75"}
+
+<span class="intro"> Many teams enter. Only one 👆 - whoever racks up the most steps - takes the crown 🏆.</span> @cr-teamnm
+
+<span class="intro"> Shoes on  👟, heads up  😃 - let’s see who walks away with the title 🚶🚶🚶 </span> @cr-teamnm
+
+
+:::{#cr-shoenw .center-img}
+![](img/shoenw.png)
+:::
+
+:::{#cr-shoe .center-img}
+![](img/shoe.png)
+:::
+
+:::{#cr-mem .center-img}
+![](img/bg.png)
+:::
+
+:::{#cr-teamnm .center-img}
+![](img/team_name.png)
+:::
+
+
+```{r}
+data <- read.csv("data.csv")
+```
+
+
+:::
