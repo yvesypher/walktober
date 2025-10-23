@@ -1,0 +1,4 @@
+- source: walktober.qmd
+  quarto-pub:
+    - id: b8a83163-0dad-4739-b76e-7b1203fa09ff
+      url: 'https://yvesypher.quarto.pub/walktober'
